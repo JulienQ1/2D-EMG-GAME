@@ -1,14 +1,12 @@
-# Thoughts In Motion
- 
 ## Table of contents :
-
 1) Introduction
 2) Installation
-3) User Guide
+3) How to use Opensignals
+4) User Guide
 
 ## 1) Introduction
 
-"Thought in Motion" is a Python script with a Tkinter-based GUI designed to recover EEG and EMG data from sensors available in our lab. The processed signals can be sent to other software, such as Unity, using the TCP communication protocol.
+"2D-EMG-Game" is a Python script with a Tkinter-based GUI designed to recover EEG and EMG data from sensors available in our lab. The processed signals can be sent to other software, such as Unity, using the TCP communication protocol.
 
 ## 2) Installation
 
@@ -53,7 +51,27 @@ Run the main script to launch the GUI:
 python main.py
 ```
 
-## 3) User Guide
+## 3) How to use Opensignal
+
+https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/7a230126-4476-4849-8e13-cfb74b47d23d
+
+
+
+# Tutorial How to use Opensignals
+
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/b8a98b20-a8ef-4f4c-b33a-356bb03b02cb)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/f0a7ef04-a7eb-4a81-8bbd-463712dd5d98)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/83e1a996-97d0-4042-a640-f85c4ab62091)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/07cc8092-41f1-409f-a40a-028f968b522a)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/b9e6d4b5-8c26-40a2-af35-db92ad90bf64)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/1ba4d883-8db8-44c2-bcbb-c6c4ada1f96c)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/6ad86e64-37a0-4065-bf4a-9c1e190720e7)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/f3d7cc0f-5ed6-40b6-a2d2-125711b59e9c)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/ef359856-07b8-4911-9e99-26ff529dc602)
+![image](https://github.com/JulienQ1/EMG-Gamepad/assets/116632934/a15b4058-fbc8-4a73-861d-89d07092231d)
+
+
+## 4) User Guide
 
 ### GUI Overview 
 
@@ -92,6 +110,8 @@ Under them, you will see a Calibration button. When clicked, this button will tr
 Once the calibration phase is over, the user can choose the Ratio to the max value by writting it in the Entry next to the calibration button. 
 
 The Launch Server button works in the same way that the one from the EEG GUI. The output will be reduce to 0 when the value of the EMG is below the threshold which is determinded by the Ratio set by the user and the max value recorded during the calibration phase.
+
+##### How to use OpenSignals
 
 
 
