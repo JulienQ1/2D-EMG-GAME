@@ -111,7 +111,7 @@ Once the calibration phase is over, the user can choose the Ratio to the max val
 
 The Launch Server button works in the same way that the one from the EEG GUI. The output will be reduce to 0 when the value of the EMG is below the threshold which is determinded by the Ratio set by the user and the max value recorded during the calibration phase.
 
-##### How to use OpenSignals
+
 
 
 
